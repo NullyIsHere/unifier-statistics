@@ -1,15 +1,15 @@
 {
-  "id": "template",
-  "name": "Plugin Template",
-  "description": "This is a template for Unifier plugins.",
+  "id": "statistics",
+  "name": "Statistics",
+  "description": "Statistics now in Unifier. On BETA. By ItsAsheer.",
   "version": "v1.0.0",
   "release": 0,
   "minimum": 36,
-  "services": [],
+  "services": ["content_processing"],
   "requirements": [],
   "shutdown": false,
   "modules": [
-    "template.py"
+    "statistics.py"
   ],
   "utils": [
   ]
